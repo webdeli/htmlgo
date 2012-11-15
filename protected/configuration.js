@@ -10,9 +10,16 @@
 
 // JSON encoded configuration settings for htmlgo.
 
-// 1. Base URL [baseurl]
-// Desc: This is the main site URL for your site.
+// 1. Base URL [baseurl] - This is the main site URL for your site.
+// 2. WCAG [wcag] - Web Content Accessibility Guidelines settings.
 
 {
-    baseurl:"http:\\www.your-main-url.com"
+    "baseurl" : "http:\\www.your-main-url.com",
+
+    "wcag" : {
+        "version" : "2.0",
+        "level" : "A"
+    }
+
 }
+// end config
